@@ -1,13 +1,13 @@
 <h1>Brick Digger</h1>
 
-<h2>Summary</h2>
+<h3>Summary</h3>
 to do
 
-<h2>Purpose</h2>
+<h3>Purpose</h3>
 to do
 
-<h2>Implementation</h2>
+<h3>Implementation</h3>
 to do
 
-<h2>Skills Learned</h2>
+<h3>Skills Learned</h3>
 to do
