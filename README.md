@@ -1,14 +1,14 @@
-<h1>Brick Digger</h1>
+# Brick Digger
 Play it [here](https://www.lexaloffle.com/bbs/?tid=147781).
 
-<h3>Summary</h3>
+### Summary
 to do
 
-<h3>Purpose</h3>
+### Purpose
 to do
 
-<h3>Implementation</h3>
+### Implementation
 to do
 
-<h3>Skills Learned</h3>
+### Skills Learned
 to do
