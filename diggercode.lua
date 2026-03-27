@@ -1203,6 +1203,12 @@ function _draw()
         spr(71, screenSize/2 - tileSize/2, screenSize - tileSize * 2 - arrowBuffer)
     end
 
+    if titleShow then
+        print("press and hold", 35, 80, 7)
+        print("\139 \148 \145 or \131", 35, 87, 7)
+        print("to start", 46, 94, 7)
+    end
+
     -- draw UI
     if gameStarted then
         print("score: "..tostr(score), cam.x + 3, cam.y + 9, 7)
