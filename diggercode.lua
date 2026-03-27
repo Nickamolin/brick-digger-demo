@@ -163,7 +163,11 @@ function handle_title_screen()
         if titleCounter > titleAnimationRate then
             titleCounter = 1
 
-            tinyBrickPicker = flr(rnd(8))
+            newPicker = flr(rnd(8))
+            while (newPicker == tinyBrickPicker) do
+                newPicker = flr(rnd(8))
+            end
+            tinyBrickPicker = newPicker
 
             if arrowBuffer == 0 then
                 arrowBuffer = 1
@@ -1204,9 +1208,9 @@ function _draw()
     end
 
     if titleShow then
-        print("press and hold", 35, 80, 7)
-        print("\139 \148 \145 or \131", 35, 87, 7)
-        print("to start", 46, 94, 7)
+        print("press and hold", 35, 80, 7 - arrowBuffer)
+        print("\139 \148 \145 or \131", 35, 87, 7 - arrowBuffer)
+        print("to start", 46, 94, 7 - arrowBuffer)
     end
 
     -- draw UI
