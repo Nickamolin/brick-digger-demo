@@ -1,5 +1,5 @@
 <h1>Brick Digger 1.0</h1>
-Play it <a href="https://www.lexaloffle.com/bbs/?tid=147781">here</a>.
+Play it on <a href="https://www.lexaloffle.com/bbs/?tid=147781">lexaloffle.com</a> or <a href="https://drakonnic.itch.io/brick-digger">itch.io</a>.
 
 <img src="https://github.com/Nickamolin/brick-digger-demo/blob/main/brickdigger.p8.png" width="256">
 
